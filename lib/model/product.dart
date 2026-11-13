@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-abstract class Product {
+class Product {
   final String id;
   String name;
   String barcode;
