@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'category.dart';
 
 class Product {
   final String id;
   String name;
   String barcode;
-  String category;
+  Category? category;
   double price;
   int stockQuantity;
 
@@ -12,7 +13,7 @@ class Product {
     required this.id,
     required this.name,
     required this.barcode,
-    required this.category,
+    this.category,
     required this.price,
     required this.stockQuantity,
   });
