@@ -1,7 +1,7 @@
 import '../model/product.dart';
 import '../model/sale.dart';
 import '../model/sale_item.dart';
-import 'inventory_exception.dart';
+import '../exception/inventory_exception.dart';
 import 'product_service.dart';
 
 class SaleService {
