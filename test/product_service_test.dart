@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:sannithi_app/model/product.dart';
-import 'package:sannithi_app/service/inventory_exception.dart';
+import 'package:sannithi_app/exception/inventory_exception.dart';
 import 'package:sannithi_app/service/product_service.dart';
 
 void main() {

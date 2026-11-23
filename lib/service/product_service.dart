@@ -1,5 +1,5 @@
 import '../model/product.dart';
-import 'inventory_exception.dart';
+import '../exception/inventory_exception.dart';
 
 class ProductService {
   List<Product> products = [];
